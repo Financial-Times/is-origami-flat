@@ -16,11 +16,11 @@ ${package_name} requires ${PACKAGE_LOCK_FILE} in order to work.`);
 }
 
 try {
-	execSync(`${lockspot_path} flat --pattern '^@financial-times/o' --file "${PACKAGE_LOCK_FILE}"`, {
+	execSync(`${lockspot_path} flat --pattern '^@financial-times/o-' --file "${PACKAGE_LOCK_FILE}"`, {
         encoding: "utf-8"
     });
 } catch (e) {
-	const depcount = execSync(`${lockspot_path} depcount --min 2 --pattern '^@financial-times/o' --file "${PACKAGE_LOCK_FILE}"`, {
+	const depcount = execSync(`${lockspot_path} depcount --min 2 --pattern '^@financial-times/o-' --file "${PACKAGE_LOCK_FILE}"`, {
         encoding: "utf-8"
 	});
 	console.error(`${ANSI_YELLOW}Checking the ${PACKAGE_LOCK_FILE} file showed some FT components were included multiple times with different versions.
