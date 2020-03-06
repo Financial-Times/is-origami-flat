@@ -1,6 +1,6 @@
 {
   "name": "is-origami-flat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Report about any packages which are included with more than one version, such as Origami dependencies. E.G. Detecting that `@financial-times/o-table@6` and `@financial-times/o-table@7` are both in the dependency tree.",
   "main": "index.js",
   "author": "Jake Champion <me@jakechampion.name>",
