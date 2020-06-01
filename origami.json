@@ -1,0 +1,14 @@
+{
+	"description": "An npm tool to report about any Origami packages which are included with more than one version.",
+	"origamiType": "cli",
+	"origamiVersion": 1,
+	"keywords": [
+		"npm"
+	],
+	"support": "https://github.com/Financial-Times/is-origami-flat/issues",
+	"supportStatus": "active",
+	"supportContact": {
+		"email": "origami.support@ft.com",
+		"slack": "financialtimes/origami-support"
+	}
+}
