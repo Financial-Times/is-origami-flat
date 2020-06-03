@@ -1,6 +1,6 @@
 # is-origami-flat [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](#licence)
 
-This package is a command-line program which reports whether a project is using mulitple versions of any Origami Component. E.G. Detecting that `@financial-times/o-table@6` and `@financial-times/o-table@7` are both in the dependency tree. This is needed because Origami Components do not work correctly if their are multiple versions of themselves in a single project.
+This package is a command-line program which reports whether a project is using mulitple versions of any Origami Component. E.G. Detecting that `@financial-times/o-table@6` and `@financial-times/o-table@7` are both in the dependency tree. This is needed because Origami Components do not support multiple versions of themselves in a single project.
 
 - [Install](#install)
 - [Contact](#contact)
